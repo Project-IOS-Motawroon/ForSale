@@ -1,0 +1,6 @@
+framework module FTNotificationIndicator {
+  umbrella header "FTNotificationIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

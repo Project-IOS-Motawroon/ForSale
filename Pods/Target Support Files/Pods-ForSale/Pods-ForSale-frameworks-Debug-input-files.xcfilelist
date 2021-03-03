@@ -1,0 +1,26 @@
+${PODS_ROOT}/Target Support Files/Pods-ForSale/Pods-ForSale-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CalendarFoundation/CalendarFoundation.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/FTNotificationIndicator/FTNotificationIndicator.framework
+${BUILT_PRODUCTS_DIR}/FTToastIndicator/FTToastIndicator.framework
+${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework
+${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework
+${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework
+${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework
+${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework
+${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework
+${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework
+${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework
+${BUILT_PRODUCTS_DIR}/JHSpinner/JHSpinner.framework
+${BUILT_PRODUCTS_DIR}/MOLH/MOLH.framework
+${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework

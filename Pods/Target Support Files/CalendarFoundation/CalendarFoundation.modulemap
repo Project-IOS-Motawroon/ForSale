@@ -1,0 +1,6 @@
+framework module CalendarFoundation {
+  umbrella header "CalendarFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
