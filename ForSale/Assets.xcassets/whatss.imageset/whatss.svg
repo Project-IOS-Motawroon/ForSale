@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1019" data-name="Rectangle 1019" width="24" height="24" transform="translate(313 232)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_116" data-name="Mask Group 116" transform="translate(-313 -232)" clip-path="url(#clip-path)">
+    <g id="whatsapp" transform="translate(313 232)">
+      <path id="Path_1316" data-name="Path 1316" d="M0,24l2.434-6.953a11.494,11.494,0,1,1,4.52,4.519Z" fill="#86f28b"/>
+      <path id="Path_1317" data-name="Path 1317" d="M0,24l6.953-2.434a11.5,11.5,0,0,0,13.68-18.2Z" fill="#66e26f"/>
+      <path id="Path_1318" data-name="Path 1318" d="M9.891,14.109c2.749,2.749,5.869,4.086,6.968,2.986l1.327-1.327a.7.7,0,0,0,0-1l-1.659-1.659a.7.7,0,0,0-1,0l-1,1A9.766,9.766,0,0,1,9.891,9.463l1-1a.7.7,0,0,0,0-1L9.228,5.813a.7.7,0,0,0-1,0L6.905,7.141C5.806,8.24,7.143,11.36,9.891,14.109Z" fill="#fff"/>
+      <path id="Path_1319" data-name="Path 1319" d="M18.187,14.772l-1.659-1.659a.7.7,0,0,0-1,0l-1,1a9.765,9.765,0,0,1-2.725-1.92l-1.92,1.92h0c2.749,2.749,5.869,4.086,6.968,2.986l1.327-1.327A.7.7,0,0,0,18.187,14.772Z" fill="#dcf4ff"/>
+    </g>
+  </g>
+</svg>

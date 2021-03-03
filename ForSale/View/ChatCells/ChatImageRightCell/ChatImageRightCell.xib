@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatImageRightCell" rowHeight="180" id="KGk-i7-Jjw" customClass="ChatImageRightCell" customModule="ForSale" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="272" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ay0-pI-fUQ">
+                        <rect key="frame" x="57" y="5" width="210" height="155"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iya-kc-akM" customClass="BGView" customModule="ForSale" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="155"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xKe-Es-9BE">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="155"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="155" id="VTf-Av-mb4"/>
+                                            <constraint firstAttribute="width" constant="150" id="Wgy-0b-37c"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="xKe-Es-9BE" secondAttribute="bottom" id="K01-iG-VnX"/>
+                                    <constraint firstItem="xKe-Es-9BE" firstAttribute="top" secondItem="Iya-kc-akM" secondAttribute="top" id="bqU-n0-NEN"/>
+                                    <constraint firstItem="xKe-Es-9BE" firstAttribute="leading" secondItem="Iya-kc-akM" secondAttribute="leading" id="lqo-z7-4p7"/>
+                                    <constraint firstAttribute="trailing" secondItem="xKe-Es-9BE" secondAttribute="trailing" id="xJg-WH-LbK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemGray6Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bu-j4-SHz" customClass="BGView" customModule="ForSale" customModuleProvider="target">
+                                <rect key="frame" x="160" y="0.0" width="50" height="155"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kfc-Jn-kyB">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Bbo-um-Nfx"/>
+                                            <constraint firstAttribute="height" constant="50" id="wuA-ks-l3q"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="WeF-oo-1QW"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kfc-Jn-kyB" secondAttribute="trailing" id="ccv-nA-fvG"/>
+                                    <constraint firstItem="Kfc-Jn-kyB" firstAttribute="leading" secondItem="4bu-j4-SHz" secondAttribute="leading" id="gjw-Uw-wqX"/>
+                                    <constraint firstItem="Kfc-Jn-kyB" firstAttribute="top" secondItem="4bu-j4-SHz" secondAttribute="top" id="ia9-Kz-ihu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Iya-kc-akM" firstAttribute="leading" secondItem="ay0-pI-fUQ" secondAttribute="leading" id="JxH-1e-uBa"/>
+                            <constraint firstItem="4bu-j4-SHz" firstAttribute="top" secondItem="ay0-pI-fUQ" secondAttribute="top" id="TZY-oz-CPa"/>
+                            <constraint firstAttribute="bottom" secondItem="4bu-j4-SHz" secondAttribute="bottom" id="Yqh-MH-9Ji"/>
+                            <constraint firstAttribute="trailing" secondItem="4bu-j4-SHz" secondAttribute="trailing" id="gSJ-T0-Yy2"/>
+                            <constraint firstItem="Iya-kc-akM" firstAttribute="top" secondItem="ay0-pI-fUQ" secondAttribute="top" id="hsd-FF-MUw"/>
+                            <constraint firstAttribute="height" constant="155" id="nZc-kv-ySw"/>
+                            <constraint firstAttribute="bottom" secondItem="Iya-kc-akM" secondAttribute="bottom" id="wMY-eo-Gd7"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ay0-pI-fUQ" secondAttribute="bottom" constant="5" id="0ho-x2-Imb"/>
+                    <constraint firstAttribute="trailing" secondItem="ay0-pI-fUQ" secondAttribute="trailing" constant="5" id="7I2-hY-GqG"/>
+                    <constraint firstItem="ay0-pI-fUQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ncF-qd-oM0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imageUpload" destination="xKe-Es-9BE" id="14I-yS-lyZ"/>
+                <outlet property="logoAdmin" destination="Kfc-Jn-kyB" id="LO5-QX-4UU"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="87.053571428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="neoSansArabic.ttf">
+            <string>NeoSansArabic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRightCell" rowHeight="102" id="KGk-i7-Jjw" customClass="ChatRightCell" customModule="ForSale" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="R5V-c3-ZzY">
+                        <rect key="frame" x="5" y="5" width="310" height="72"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ou6-2K-iaX" customClass="BGView" customModule="ForSale" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="72"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEw-qX-l72">
+                                        <rect key="frame" x="8" y="8" width="234" height="56"/>
+                                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.63139802219999996" green="0.1014319137" blue="0.1613987982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="DEw-qX-l72" secondAttribute="bottom" constant="8" id="3MB-HF-jk7"/>
+                                    <constraint firstItem="DEw-qX-l72" firstAttribute="leading" secondItem="Ou6-2K-iaX" secondAttribute="leading" constant="8" id="PkW-vP-Xwh"/>
+                                    <constraint firstItem="DEw-qX-l72" firstAttribute="top" secondItem="Ou6-2K-iaX" secondAttribute="top" constant="8" id="XTR-b7-3mg"/>
+                                    <constraint firstAttribute="trailing" secondItem="DEw-qX-l72" secondAttribute="trailing" constant="8" id="mBz-nk-sCJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a69-0T-UaB" customClass="BGView" customModule="ForSale" customModuleProvider="target">
+                                <rect key="frame" x="260" y="0.0" width="50" height="72"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userC" translatesAutoresizingMaskIntoConstraints="NO" id="xCO-19-Onz">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="YOp-zg-eQd"/>
+                                            <constraint firstAttribute="height" constant="50" id="eN1-lV-YO4"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xCO-19-Onz" secondAttribute="bottom" id="a3g-6t-Psm"/>
+                                    <constraint firstAttribute="width" constant="50" id="dap-02-lMz"/>
+                                    <constraint firstItem="xCO-19-Onz" firstAttribute="centerX" secondItem="a69-0T-UaB" secondAttribute="centerX" id="rjc-Us-Wca"/>
+                                    <constraint firstItem="xCO-19-Onz" firstAttribute="top" secondItem="a69-0T-UaB" secondAttribute="top" id="rwB-xM-Jhh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeT-2y-KaW">
+                        <rect key="frame" x="220.5" y="82" width="34.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="l2G-UI-NzC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NeoSansArabic" family="Neo Sans Arabic" pointSize="14"/>
+                        <color key="textColor" name="TextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NeT-2y-KaW" firstAttribute="top" secondItem="R5V-c3-ZzY" secondAttribute="bottom" constant="5" id="4Ee-i3-zP4"/>
+                    <constraint firstAttribute="trailing" secondItem="R5V-c3-ZzY" secondAttribute="trailing" constant="5" id="9UB-mt-arU"/>
+                    <constraint firstAttribute="bottom" secondItem="NeT-2y-KaW" secondAttribute="bottom" constant="5" id="PuJ-yt-w1U"/>
+                    <constraint firstItem="R5V-c3-ZzY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Sgx-mG-LUN"/>
+                    <constraint firstItem="NeT-2y-KaW" firstAttribute="trailing" secondItem="Ou6-2K-iaX" secondAttribute="trailing" id="U2B-vx-csl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="date_lb" destination="NeT-2y-KaW" id="9x6-jC-Be6"/>
+                <outlet property="logo" destination="xCO-19-Onz" id="51q-RB-nLp"/>
+                <outlet property="msg" destination="DEw-qX-l72" id="jis-qh-wSZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="127.23214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="userC" width="100" height="100"/>
+        <namedColor name="TextColor">
+            <color red="0.26666666666666666" green="0.29019607843137257" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

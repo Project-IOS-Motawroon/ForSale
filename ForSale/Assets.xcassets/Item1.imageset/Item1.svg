@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1004" data-name="Rectangle 1004" width="25" height="25" transform="translate(253 770)" fill="#a11a29" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_100" data-name="Mask Group 100" transform="translate(-253 -770)" clip-path="url(#clip-path)">
+    <g id="Iconly_Bold_Category" data-name="Iconly/Bold/Category" transform="translate(253 770)">
+      <g id="Category" transform="translate(0 0)">
+        <path id="Path_1244" data-name="Path 1244" d="M7.4,14.337a3.178,3.178,0,0,1,3.175,3.2h0V21.8A3.185,3.185,0,0,1,7.4,25H3.175A3.193,3.193,0,0,1,0,21.8H0V17.538a3.186,3.186,0,0,1,3.175-3.2H7.4Zm14.425,0A3.186,3.186,0,0,1,25,17.538h0V21.8A3.193,3.193,0,0,1,21.825,25H17.6a3.185,3.185,0,0,1-3.175-3.2h0V17.538a3.178,3.178,0,0,1,3.175-3.2h4.225ZM7.4,0a3.185,3.185,0,0,1,3.175,3.2h0V7.462a3.177,3.177,0,0,1-3.175,3.2H3.175A3.185,3.185,0,0,1,0,7.462H0V3.2A3.193,3.193,0,0,1,3.175,0H7.4ZM21.825,0A3.193,3.193,0,0,1,25,3.2h0V7.462a3.185,3.185,0,0,1-3.175,3.2H17.6a3.177,3.177,0,0,1-3.175-3.2h0V3.2A3.185,3.185,0,0,1,17.6,0h4.225Z" transform="translate(0 0)" fill="#a11a29"/>
+      </g>
+    </g>
+  </g>
+</svg>
